@@ -1,0 +1,24 @@
+# 保护你的密钥
+.env
+
+# Python 运行产生的缓存
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook 的检查点
+.ipynb_checkpoints/
+
+# 你的本地数据库文件（防止别人下载你的聊天记录）
+*.db
+# 忽略 PyCharm 的本地配置
+.idea/
+
+# 忽略 SQLite 的临时日志文件
+*.db-shm
+*.db-wal
+
+# 忽略个人测试草稿
+main.py
+chapter01/heima.ipynb
+chapter01/test.ipynb
+chapter01/test1.py
